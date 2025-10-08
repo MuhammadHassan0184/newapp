@@ -89,27 +89,6 @@ class Class11 extends StatelessWidget {
             child: Image.asset(AppImages.myImg1, fit: BoxFit.cover, width: 100),
           ),
 
-          Divider(),
-
-          // GestureDetector(
-          //   onTap: () {
-          //     print("object");
-          //   },
-          //   child: Container(
-          //     width: 100,
-          //     height: 120,
-          //     color: Colors.grey.shade200,
-          //     child: Column(
-          //       mainAxisAlignment: MainAxisAlignment.center,
-          //       children: [
-          //         Icon(Icons.lightbulb),
-          //         SizedBox(height: 10),
-          //         Text("Button"),
-          //       ],
-          //     ),
-          //   ),
-          // ),
-
           
         ],
       ),

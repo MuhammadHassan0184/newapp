@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use, avoid_print
+
 import 'package:flutter/material.dart';
 
 class TextFormmClass extends StatefulWidget {
@@ -81,22 +83,6 @@ class _TextFormmClassState extends State<TextFormmClass> {
             Text(('Female')),
 
             SizedBox(height: 20),
-
-            // DropdownButton(
-            //   value: selectedItem,
-            //   hint: Text('select'),
-            //   items: [
-            //     DropdownMenuItem(value: "male", child: Text('Male')),
-            //     DropdownMenuItem(value: 'female', child: Text('Female')),
-            //   ],
-            //   onChanged: (value) {
-            //     setState(() {
-            //       selectedItem = value!;
-            //     });
-            //   },
-            // ),
-            // DropdownMenu(
-
             //   dropdownMenuEntries: ),
             SizedBox(height: 20),
             Checkbox(
@@ -141,7 +127,7 @@ class _TextFormmClassState extends State<TextFormmClass> {
               onPressed: () {
                 if (_loginKey.currentState!.validate()) {
                 } else {
-                  print(fullNameCtr.text);
+                  // print(fullNameCtr.text);
                 }
               },
               child: Text("Submit"),

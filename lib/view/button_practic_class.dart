@@ -1,5 +1,7 @@
 
 
+// ignore_for_file: avoid_print
+
 import 'package:flutter/material.dart';
 
 class ButtonPracticClass extends StatelessWidget {
@@ -411,8 +413,18 @@ class ButtonPracticClass extends StatelessWidget {
              child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                 Text("Add to Cart", style: TextStyle(color: const Color.fromARGB(255, 190, 188, 188), fontWeight: FontWeight.bold, fontSize: 20),),
-                 Icon(Icons.medical_services_rounded, color: const Color.fromARGB(255, 190, 188, 188), size: 25,)
+                 Text(
+                  "Add to Cart", 
+                  style: TextStyle(
+                    color: const Color.fromARGB(255, 190, 188, 188), 
+                    fontWeight: FontWeight.bold, 
+                    fontSize: 20),
+                    ),
+                 Icon(
+                  Icons.medical_services_rounded, 
+                  color: const Color.fromARGB(255, 190, 188, 188), 
+                  size: 25,
+                  )
               ],
              )
              ),
